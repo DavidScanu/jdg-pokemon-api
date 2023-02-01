@@ -1,0 +1,3 @@
+db.pokemons.updateOne({pokedexId: 899},{$set: {"name": "Dartyyyy Papaaaaaa", "slug": "darty-papa"}})
+
+db.pokemons.deleteOne({pokedexId: 899})
